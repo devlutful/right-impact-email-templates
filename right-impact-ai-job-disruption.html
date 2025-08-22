@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Right Impact — A.I. Job Disruption Survey</title>
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    /* ====== CLIENT RESETS ====== */
+    body, table, td, a { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table, td { mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse; }
+    img { -ms-interpolation-mode:bicubic; border:0; outline:none; text-decoration:none; display:block; }
+    body { margin:0; padding:0; width:100% !important; background:#ffffff; }
+    a { color:#0E2A3B; text-decoration:none; }
+
+    /* ====== TYPE (avoid @import; fall back cleanly) ====== */
+    .h1 { font-family:Poppins, Arial, Helvetica, sans-serif; font-size:30px; line-height:1.25; color:#0E2A3B; margin:0 0 6px 0; font-weight:800; letter-spacing:.2px;}
+    .h2 { font-family:Poppins, Arial, Helvetica, sans-serif; font-size:22px; line-height:1.35; color:#0E2A3B; margin:0 0 10px 0; font-weight:800;}
+    .lead, .body, .small, .greet, .feat-title, .feat-copy, .cta-bar { font-family:Poppins, Arial, Helvetica, sans-serif; }
+    .lead { font-size:16px; line-height:1.7; color:#333333; margin:0 0 18px 0; }
+    .body { font-size:15px; line-height:1.8; color:#333333; margin:0 0 16px 0; }
+    .small { font-size:12px; line-height:1.6; color:#666666; }
+    .greet { font-size:16px; color:#ff6b00; font-style:italic; margin:0 0 8px 0; }
+
+    /* ====== COLORS ====== */
+    .brand-orange { background:#ff6b00; }
+    .text-navy { color:#003045; }
+
+    /* ====== LAYOUT ====== */
+    .wrap { width:100%; background:#ffffff; }
+    .container { width:100%; max-width:640px; margin:0 auto; }
+    .inner { padding:0px; }
+    .navy-card { background:#003045; border-radius:0px; }
+    .band { background:#ff6b00; color:#ffffff; }
+    .qbox { background:#ffffff; color:#ff6b00; font-weight:800; text-align:center; width:44px; height:44px; border-radius:6px; font-size:28px; line-height:44px; }
+
+    /* ====== CTA ====== */
+    .cta-wrap { padding:20px 0px 0 0px; }
+    .cta-bar { background:#0E2A3B; color:#ffffff; font-size:16px; font-weight:700; padding:16px 20px; display:block; text-align:center; border-radius:0px; }
+    .cta-text { display:inline-block; vertical-align:middle; font-size:20px; line-height:28px; font-weight:600; color:#ffffff; }
+    .cta-arrow { display:inline-block; vertical-align:middle; padding:0 8px; margin-left:12px; background:#ffffff; border-radius:4px; font-weight:800; color:#0e2a3b; font-size:24px; line-height:28px; }
+
+    /* ====== FEATURES ====== */
+    .feat-title { font-size:18px; line-height:24px; color:#333333; font-weight:400; margin:8px 0 6px 0; }
+    .feat-copy { font-size:13px; color:#555555; margin:0; }
+
+
+    .cta {
+      margin-top: 20px!important;
+    }
+
+    table { border-collapse: collapse !important; border-spacing: 0 !important; }
+    td { border: none !important; }
+
+
+    /* ====== MOBILE ====== */
+    @media screen and (max-width:600px){
+      .inner { 
+          padding:20px !important;
+          border-radius: 0px; 
+
+        
+        }
+
+        .heading1 {
+          font-size: 32px!important;
+        }
+
+
+        .subheading1 {
+          font-size: 18px!important;
+        }
+
+        .inner2 {
+          padding-bottom: 0px!important;
+        }
+
+        .cta-wrap {
+            padding: 20px!important;
+            background:#0E2A3B
+        }
+
+
+
+      .stack { display:block !important; 
+        width:100% !important; 
+        padding-top:10px ;
+      
+      }
+
+      .cta-button {
+        padding: 20px!important;
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px!important;
+        padding: 0px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 20px!important;
+
+      }
+
+      .cta-button-td-1 {
+        padding: 0px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        font-size: 21px !important;
+        border-radius: 0px !important;
+        line-height: 25px !important;
+      }
+
+
+      .band {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+      }
+
+
+
+
+
+
+
+      .heading5 {
+        font-size: 22px!important;
+        padding-right: 0px!important;
+        margin-right: 0px!important;
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+      }
+
+
+      .stack td { display:block !important; width:100% !important; }
+      .hide-mobile { display:none !important; width:0 !important; height:0 !important; overflow:hidden !important; }
+      .qbox { margin-top:12px !important; }
+      .cta-text { font-size:18px !important; line-height:24px !important; }
+    }
+
+    /* IMPORTANT: do NOT zero out font-size on <p> */
+    p { mso-line-height-rule:exactly; }
+
+
+
+  </style>
+</head>
+<body>
+  <center class="wrap">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td align="center">
+          <table role="presentation" class="container" cellspacing="0" cellpadding="0" border="0">
+
+            <!-- Top logo -->
+            <tr>
+              <td align="center" style="padding:18px 24px 8px 24px; background-image: url(https://storage.mlcdn.com/account_image/946252/C7G8G6g8WTdzIrQ5f90StqPoJdIEKCw5t8kDdDim.jpg); background-size: cover; background-repeat: repeat;">
+                <img src="https://storage.mlcdn.com/account_image/946252/NQk7PogPwKUH0DzBZiCppdovg9MQ4V6fK5wENTHM.png" width="140" alt="Right Impact" style="height:auto;">
+              </td>
+            </tr>
+
+            <!-- Hero -->
+            <tr>
+              <td>
+                <img src="https://storage.mlcdn.com/account_image/946252/58QRmsxd4pbFKdrfgCE6w7V7aCm0LE6AV9tijVj5.jpg" width="640" style="width:100%;max-width:640px;height:auto;" alt="Robots and humans at laptops">
+              </td>
+            </tr>
+
+            <!-- Navy overlay card (as its own full-width card) -->
+            <tr>
+              <td style="padding-top:0;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="center" class="navy-card" style="padding:18px 16px;">
+                      <p class="subheading1" style="margin:0;font-size:25px;color:#ffffff; font-family: Poppins, Arial, sans-serif;">Is your</p>
+                      <p class="heading1" style="margin:0px 0 0 0; font-size:60px; line-height:1.1; font-weight:600; color:#FF6B00; font-family: Poppins, Arial, sans-serif;">Job safe from A.I.?</p>
+                      <p class="subheading1" style="margin:0px 0 0 0;font-size:25px;color:#ffffff; font-family: Poppins, Arial, sans-serif;">Find out now with our <strong>Free Survey</strong></p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Greeting + intro -->
+            <tr>
+              <td class="inner" style="padding-top:20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px;">
+                  <p class="body" style="font-size:19px; line-height:28px; margin:0;">Artificial Intelligence is rapidly reshaping the job landscape, impacting roles and industries in ways we never anticipated.</p>
+              </td>
+            </tr>
+
+
+
+            <!-- Orange question band (bulletproof) -->
+              <tr>
+                <td class="band" bgcolor="#ff6b00" style="padding:0;">
+                  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td style="padding:0px; padding-left: 20px; padding-right: 20px;">
+                        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <!-- Left: text -->
+                            <td class="stack" align="left" valign="middle">
+                              
+
+                              <p style="font-family:Poppins, Arial, sans-serif; font-size:30px; line-height:1.25; font-weight:500; color:#ffffff; padding:0;" class="heading5">
+                                  Are you curious about how safe
+                              your job is in the age of A.I. and automation?
+                              </p>
+
+                            </td>
+
+                            <!-- Right: square ? badge -->
+                            <td align="right" valign="middle" width="60" style="padding-left:16px;">
+                              <!--[if mso]>
+                              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" arcsize="14%" fillcolor="#ffffff" stroke="f"
+                                style="width:44px;height:44px;v-text-anchor:middle;">
+                                <center style="color:#ff6b00;font-family:Poppins, Arial, sans-serif;font-size:28px;font-weight:800;">?</center>
+                              </v:roundrect>
+                              <![endif]-->
+                              <!--[if !mso]><!-- -->
+                              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="44" height="44"
+                                    style="border-collapse:separate;">
+                                <tr>
+                                  <td align="center" valign="middle"
+                                      style="background:#ffffff; border-radius:6px;
+                                            font-family:Poppins, Arial, sans-serif; font-size:80px; line-height:28px;
+                                            color:#ff6b00; font-weight:800; padding: 20px; padding-top: 40px; padding-bottom: 40px; ">
+                                    ?
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--<![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+
+
+
+            <!-- Body paragraph -->
+            <tr>
+              <td class="inner2" style="padding:20px;">
+                <p class="body" style="font-size:19px; line-height:30px; margin:0;">
+                  We, at Right Impact, an experiential learning company committed to empowering professionals and organisations, have developed the <strong>A.I. Job Disruption Survey</strong>. This free, insightful survey, based on extensive research from the World Economic Forum, provides you with a personalised A.I. risk score, evaluating:
+                </p>
+              </td>
+            </tr>
+
+            <!-- Three features (each in its own table so they stack reliably) -->
+            <tr>
+              <td class="inner3" style="padding:20px; padding-top: 0px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <!-- Feature 1 -->
+                    <td class="stack" width="33.33%" style="vertical-align:top; padding-right:20px;">
+                      <table role="presentation" width="100%"><tr><td>
+                        <img src="https://storage.mlcdn.com/account_image/946252/uiWOQPF5kslZ0Y5BPKA53fR3OTuADGVVZ5AQj0oO.png" width="66" height="66" alt="Checklist" style="height:auto;">
+                        <div class="feat-title">How susceptible your job role and industry are to A.I. disruption.</div>
+                      </td></tr></table>
+                    </td>
+
+                    <!-- Feature 2 -->
+                    <td class="stack" width="33.33%" style="vertical-align:top; padding-right:20px;">
+                      <table role="presentation" width="100%"><tr><td>
+                        <img src="https://storage.mlcdn.com/account_image/946252/AjWFIqexBbrUS9zwHMTMMz742Eg1cCqHlyhjhJEo.png" width="66" height="66" alt="Skills" style="height:auto;">
+                        <div class="feat-title">Which skills you should focus on to future-proof your career.</div>
+                      </td></tr></table>
+                    </td>
+
+                    <!-- Feature 3 -->
+                    <td class="stack" width="33.33%" style="vertical-align:top;">
+                      <table role="presentation" width="100%"><tr><td>
+                        <img src="https://storage.mlcdn.com/account_image/946252/PLq9TWz1uBvHkkDL6vJT29tmjiArLEnu9Gh68uxz.png" width="66" height="66" alt="Recommendations" style="height:auto;">
+                        <div class="feat-title">Detailed practical recommendations to mitigate your job risk from automation.</div>
+                      </td></tr></table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Grey callout -->
+            <tr>
+              <td class="inner" style="background-color:#EBEBEB; padding: 20px;">
+                <p class="body" style="font-size:19px; line-height:26px; margin:0 0 6px 0;">
+                  Stay ahead of the curve and take proactive steps today!
+                </p>
+                <p class="body" style="font-size:19px; line-height:26px; margin:10px 0 0 0;">
+                  Complete the short, <strong>free survey</strong> and receive your personalised A.I. risk assessment immediately.
+                </p>
+              </td>
+            </tr>
+
+        
+
+            <!-- Full-width CTA with text + arrow -->
+            <tr>
+              <td align="center" style="padding:20px;" class="cta-button">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td bgcolor="#003045" style="border-radius:0px; text-align:center;">
+                      <!-- Make the whole button a link -->
+                      <a href="https://jobshieldai.right-impact.com/" target="_blank" 
+                        style="display:block; width:100%; text-decoration:none;">
+
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                          <tr>
+                            <!-- Text column -->
+                            <td class="cta-button-td-1" align="center" style="padding:16px 12px; font-family:Poppins, Arial, sans-serif; font-size:23px; line-height:24px; font-weight:500; color:#ffffff;">
+                              Take the Free A.I. Job Disruption Survey now
+                            </td>
+
+                            <!-- Arrow column -->
+                            <!-- <td class="cta-button-td-2" width="40" style="padding:0 16px 0 0; text-align:center; vertical-align:middle;">
+                              <span style="display:inline-block; width:28px; height:28px; line-height:28px; text-align:center; background:#ffffff; color:#003045; font-family:Arial, sans-serif; font-size:18px; font-weight:800; border-radius:4px;">
+                                ↗
+                              </span>
+                            </td> -->
+                          </tr>
+                        </table>
+
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+
+
+            <tr>
+              <td class="inner" style="background-color:white; padding: 20px; padding-top: 0px;">
+
+                <p class="small" style="font-size:14px; line-height:20px; color:#666666; margin:0;">
+                      Have questions or feedback? We’re here to listen. You can reach out to us at —<br>
+                      <a href="mailto:connect@right-impact.com" style="color:#666666; text-decoration:underline;">connect@right-impact.com</a>.
+                </p>
+
+
+
+              </td>
+            </tr>
+
+
+      
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</body>
+</html>
